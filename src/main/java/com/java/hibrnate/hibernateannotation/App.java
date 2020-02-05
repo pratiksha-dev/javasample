@@ -15,5 +15,6 @@ public class App
 		 * Configuration conf=new Configuration(); SessionFactory sfact=
 		 * conf.AnnotationConfiguration().configure().addAnnotatedClass();
 		 */
+	    System.out.println("A");
     	}
 }
