@@ -7,13 +7,13 @@ import org.hibernate.cfg.Configuration;
  * Hello world!
  *
  */
-public class App 
+public class App2_cpy 
 {
     public static void main( String[] args )
     {
-		/*
-		 * Configuration conf=new Configuration(); SessionFactory sfact=
-		 * conf.AnnotationConfiguration().configure().addAnnotatedClass();
-		 */
+		
+		  Configuration conf=new Configuration(); SessionFactory sfact=
+		  conf.AnnotationConfiguration().configure().addAnnotatedClass();
+		 System.out.println("A");
     	}
 }
