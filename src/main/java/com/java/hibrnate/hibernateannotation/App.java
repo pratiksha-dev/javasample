@@ -16,6 +16,6 @@ public class App
 		 * conf.AnnotationConfiguration().configure().addAnnotatedClass();
 		 */
 	    System.out.println("B");
-	    system.out.println("A");
+	    System.out.println("A");
     	}
 }
