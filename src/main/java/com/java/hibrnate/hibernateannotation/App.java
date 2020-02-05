@@ -11,9 +11,9 @@ public class App
 {
     public static void main( String[] args )
     {
-		/*
-		 * Configuration conf=new Configuration(); SessionFactory sfact=
-		 * conf.AnnotationConfiguration().configure().addAnnotatedClass();
-		 */
+		
+		  Configuration conf=new Configuration(); SessionFactory sfact=
+		  conf.AnnotationConfiguration().configure().addAnnotatedClass();
+		 
     	}
 }
